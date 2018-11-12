@@ -23,7 +23,7 @@ public class Personne extends Candidat
 	}
 
 	/**
-	 * Retourne le prénom de la personne.
+	 * Retourne le prenom de la personne.
 	 * @return
 	 */
 	
@@ -43,7 +43,7 @@ public class Personne extends Candidat
 	}
 
 	/**
-	 * Retourne l'adresse électronique de la personne.
+	 * Retourne l'adresse electronique de la personne.
 	 * @return
 	 */
 	

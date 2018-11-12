@@ -31,7 +31,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Retourne le nom de la compétition.
+	 * Retourne le nom de la competition.
 	 * @return
 	 */
 	

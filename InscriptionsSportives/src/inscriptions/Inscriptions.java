@@ -14,7 +14,7 @@ import java.util.TreeSet;
 /**
  * Point d'entree dans l'application, un seul objet de type Inscription
  * permet de gerer les competitions, candidats (de type equipe ou personne)
- * ainsi que d'inscrire des candidats à des competition.
+ * ainsi que d'inscrire des candidats a des competitions.
  */
 
 public class Inscriptions implements Serializable
@@ -96,7 +96,7 @@ public class Inscriptions implements Serializable
 	}
 
 	/**
-	 * Créée une Candidat de type Personne. Ceci est le seul moyen, il n'y a pas
+	 * Cree une Candidat de type Personne. Ceci est le seul moyen, il n'y a pas
 	 * de constructeur public dans {@link Personne}.
 
 	 * @param nom
