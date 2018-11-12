@@ -12,9 +12,9 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 /**
- * Point d'entrée dans l'application, un seul objet de type Inscription
- * permet de gérer les compétitions, candidats (de type equipe ou personne)
- * ainsi que d'inscrire des candidats à des compétition.
+ * Point d'entree dans l'application, un seul objet de type Inscription
+ * permet de gerer les competitions, candidats (de type equipe ou personne)
+ * ainsi que d'inscrire des candidats à des competition.
  */
 
 public class Inscriptions implements Serializable
@@ -31,7 +31,7 @@ public class Inscriptions implements Serializable
 	}
 	
 	/**
-	 * Retourne les compétitions.
+	 * Retourne les competitions.
 	 * @return
 	 */
 	
@@ -41,7 +41,7 @@ public class Inscriptions implements Serializable
 	}
 	
 	/**
-	 * Retourne tous les candidats (personnes et équipes confondues).
+	 * Retourne tous les candidats (personnes et equipes confondues).
 	 * @return
 	 */
 	
@@ -65,7 +65,7 @@ public class Inscriptions implements Serializable
 	}
 
 	/**
-	 * Retourne toutes les équipes.
+	 * Retourne toutes les equipes.
 	 * @return
 	 */
 	
@@ -79,7 +79,7 @@ public class Inscriptions implements Serializable
 	}
 
 	/**
-	 * Créée une compétition. Ceci est le seul moyen, il n'y a pas
+	 * Cree une competition. Ceci est le seul moyen, il n'y a pas
 	 * de constructeur public dans {@link Competition}.
 	 * @param nom
 	 * @param dateCloture

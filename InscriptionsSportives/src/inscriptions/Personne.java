@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * Représente une personne physique pouvant s'inscrire à une compétition.
+ * Represente une personne physique pouvant s'inscrire a� une competition.
  */
 
 public class Personne extends Candidat

@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * Candidat à un événement sportif, soit une personne physique, soit une équipe.
+ * Candidat à un evenement sportif, soit une personne physique, soit une équipe.
  *
  */
 

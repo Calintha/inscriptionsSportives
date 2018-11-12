@@ -6,8 +6,8 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 /**
- * Représente une Equipe. C'est-à-dire un ensemble de personnes pouvant 
- * s'inscrire à une compétition.
+ * Represente une Equipe. C'est-a�-dire un ensemble de personnes pouvant 
+ * s'inscrire à une competition.
  * 
  */
 
