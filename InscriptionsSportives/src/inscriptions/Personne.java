@@ -33,7 +33,7 @@ public class Personne extends Candidat
 	}
 
 	/**
-	 * Modifie le prénom de la personne.
+	 * Modifie le prenom de la personne.
 	 * @param prenom
 	 */
 	

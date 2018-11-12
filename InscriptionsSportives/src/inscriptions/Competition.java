@@ -41,7 +41,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Modifie le nom de la compétition.
+	 * Modifie le nom de la competition.
 	 */
 	
 	public void setNom(String nom)
@@ -57,8 +57,12 @@ public class Competition implements Comparable<Competition>, Serializable
 	
 	public boolean inscriptionsOuvertes()
 	{
-		// TODO retourner vrai si et seulement si la date système est antérieure à la date de clôture.
-		return true;
+		// TODO retourner vrai si et seulement si la date systeme est anterieure a la date de cloture.
+		LocalDate dateactuelle = LocalDate.now();
+		if(dateactuelle.compareTo(getDateCloture())<0)
+			return true;
+		else
+			return false;
 	}
 	
 	/**
@@ -72,7 +76,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Est vrai si et seulement si les inscriptions sont réservées aux équipes.
+	 * Est vrai si et seulement si les inscriptions sont reservees aux équipes.
 	 * @return
 	 */
 	
@@ -89,7 +93,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	
 	public void setDateCloture(LocalDate dateCloture)
 	{
-		// TODO vérifier que l'on avance pas la date.
+		// TODO verifier que l'on avance pas la date.
 		this.dateCloture = dateCloture;
 	}
 	
@@ -104,7 +108,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Inscrit un candidat de type Personne à la compétition. Provoque une
+	 * Inscrit un candidat de type Personne a la competition. Provoque une
 	 * exception si la compétition est réservée aux équipes ou que les 
 	 * inscriptions sont closes.
 	 * @param personne

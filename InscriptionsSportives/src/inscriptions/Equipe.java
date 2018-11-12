@@ -7,7 +7,7 @@ import java.util.TreeSet;
 
 /**
  * Represente une Equipe. C'est-a�-dire un ensemble de personnes pouvant 
- * s'inscrire à une competition.
+ * s'inscrire a� une competition.
  * 
  */
 
@@ -22,7 +22,7 @@ public class Equipe extends Candidat
 	}
 
 	/**
-	 * Retourne l'ensemble des personnes formant l'équipe.
+	 * Retourne l'ensemble des personnes formant l'equipe.
 	 */
 	
 	public SortedSet<Personne> getMembres()
@@ -31,7 +31,7 @@ public class Equipe extends Candidat
 	}
 	
 	/**
-	 * Ajoute une personne dans l'équipe.
+	 * Ajoute une personne dans l'equipe.
 	 * @param membre
 	 * @return
 	 */
@@ -61,7 +61,8 @@ public class Equipe extends Candidat
 	
 	public Set<Personne> getPersonnesAAjouter()
 	{
-		// TODO retourner les personnes que l'on peut ajouter dans cette équipe.
+		
+		// TODO retourner les personnes que l'on peut ajouter dans cette equipe.
 		return null;
 	}
 	

@@ -113,7 +113,7 @@ public class Inscriptions implements Serializable
 	}
 	
 	/**
-	 * Créée une Candidat de type équipe. Ceci est le seul moyen, il n'y a pas
+	 * Cree une Candidat de type equipe. Ceci est le seul moyen, il n'y a pas
 	 * de constructeur public dans {@link Equipe}.
 	 * @param nom
 	 * @param prenom
@@ -140,7 +140,7 @@ public class Inscriptions implements Serializable
 	
 	/**
 	 * Retourne l'unique instance de cette classe.
-	 * Crée cet objet s'il n'existe déjà.
+	 * Cree cet objet s'il n'existe deja�.
 	 * @return l'unique objet de type {@link Inscriptions}.
 	 */
 	
@@ -157,8 +157,8 @@ public class Inscriptions implements Serializable
 	}
 
 	/**
-	 * Retourne un object inscriptions vide. Ne modifie pas les compétitions
-	 * et candidats déjà existants.
+	 * Retourne un object inscriptions vide. Ne modifie pas les competitions
+	 * et candidats deja� existants.
 	 */
 	
 	public Inscriptions reinitialiser()
@@ -168,8 +168,8 @@ public class Inscriptions implements Serializable
 	}
 
 	/**
-	 * Efface toutes les modifications sur Inscriptions depuis la dernière sauvegarde.
-	 * Ne modifie pas les compétitions et candidats déjà existants.
+	 * Efface toutes les modifications sur Inscriptions depuis la derniere sauvegarde.
+	 * Ne modifie pas les competitions et candidats deja� existants.
 	 */
 	
 	public Inscriptions recharger()
@@ -204,7 +204,7 @@ public class Inscriptions implements Serializable
 	
 	/**
 	 * Sauvegarde le gestionnaire pour qu'il soit ouvert automatiquement 
-	 * lors d'une exécution ultérieure du programme.
+	 * lors d'une execution ulterieure du programme.
 	 * @throws IOException 
 	 */
 	
