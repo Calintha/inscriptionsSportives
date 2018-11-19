@@ -13,5 +13,4 @@ public class TestInscriptions
 		Inscriptions inscriptions = Inscriptions.reinitialiser();
 		assertTrue(inscriptions.getCompetitions().isEmpty());
 	}
-
 }
