@@ -161,7 +161,7 @@ public class Inscriptions implements Serializable
 	 * et candidats deja  existants.
 	 */
 	
-	public Inscriptions reinitialiser()
+	public static Inscriptions reinitialiser()
 	{
 		inscriptions = new Inscriptions();
 		return getInscriptions();
