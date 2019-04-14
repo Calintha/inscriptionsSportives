@@ -12,6 +12,6 @@ public class TestCandidat
 	{
 		Inscriptions inscriptions = Inscriptions.getInscriptions();
 		Personne tony = inscriptions.createPersonne("Tony", "Dent de plomb", "azerty");
-		assertEquals("Tony", tony.getNom());
+		assertEquals("Jony", tony.getNom());
 	}
 }

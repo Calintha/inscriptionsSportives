@@ -238,7 +238,7 @@ public class Inscriptions implements Serializable
 		return "Candidats : " + getCandidats().toString()
 			+ "\nCompetitions  " + getCompetitions().toString();
 	}
-	
+	 
 	public static void main(String[] args)
 	{
 		Inscriptions inscriptions = Inscriptions.getInscriptions();
@@ -253,7 +253,7 @@ public class Inscriptions implements Serializable
 		lesManouches.delete();
 		System.out.println(inscriptions);
 		try
-		{
+		{ 
 			inscriptions.sauvegarder();
 		} 
 		catch (IOException e)

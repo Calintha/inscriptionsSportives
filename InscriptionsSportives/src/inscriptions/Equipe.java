@@ -63,7 +63,16 @@ public class Equipe extends Candidat
 	{
 		
 		// TODO retourner les personnes que l'on peut ajouter dans cette equipe.
-		return null;
+		{
+            Set<Personne> personnesAAjouter = new TreeSet<>();
+		for(Personne pers : membres) {
+                    if(!pers.getCompetitions().isEmpty()) {
+                        personnesAAjouter.add(pers);
+                    }
+                }
+                return personnesAAjouter;
+	}
+
 	}
 	
 	@Override
