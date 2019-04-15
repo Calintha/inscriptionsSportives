@@ -260,5 +260,6 @@ public class Inscriptions implements Serializable
 		{
 			System.out.println("Sauvegarde impossible." + e);
 		}
+		System.out.println(flechettes.getCandidatsAInscrire());
 	}
 }
