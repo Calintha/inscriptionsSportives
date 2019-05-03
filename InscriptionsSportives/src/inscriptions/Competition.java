@@ -75,6 +75,7 @@ public class Competition implements Comparable<Competition>, Serializable
 		                }
                 }
             return true;
+
 	}
 	
 	/**
