@@ -6,20 +6,11 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.time.LocalDate;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import commandLineMenus.Menu;
-import commandLineMenus.Option;
-import commandLineMenus.rendering.examples.util.InOut;
-import commandLineMenus.Action;
-import commandLineMenus.List;
-import commandLineMenus.ListAction;
-import commandLineMenus.ListData;
-import commandLineMenus.ListOption;
 /**
  * Point d'entree dans l'application, un seul objet de type Inscription
  * permet de gerer les competitions, candidats (de type equipe ou personne)
